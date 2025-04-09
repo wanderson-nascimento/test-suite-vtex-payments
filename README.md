@@ -11,7 +11,6 @@ Antes de começar, certifique-se de ter instalado:
 - [Node.js](https://nodejs.org/) (recomendado: v18+)
 - [npm](https://www.npmjs.com/) (vem com o Node)
 - [ngrok](https://ngrok.com/) para expor seu servidor local
-- [Postman](https://www.postman.com/) ou `curl` para testar os endpoints
 
 ---
 
@@ -52,6 +51,15 @@ npm install -g ngrok
 ```bash
 ngrok config add-authtoken <seu-token>
 ```
+
+### 6 Inicie o ngrok na porta 3000
+```bash
+ngrok http 3000
+```
+
+A URL a ser utilizada é essa com o .ngrok-free.app
+![image](https://github.com/user-attachments/assets/dd0c4565-c02f-4aea-aae8-527ef59e9d8d)
+
 
 
 
